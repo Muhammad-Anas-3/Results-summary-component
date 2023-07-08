@@ -8,7 +8,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35rem;
     font-family: sans-serif;
 }
 
@@ -16,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 35rem;
     width: 600px;
 }
 
@@ -171,7 +171,7 @@ button:hover {
         flex-wrap: wrap;
         width: 100%;
         overflow: hidden;
-        margin-top: 400px;
+        height:max-content;
     }
     .left{
         width: 80%;
